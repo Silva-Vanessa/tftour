@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 80px;
+    background-color: black;
+}
+.container-grid{
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-grid img{
+    width: 250px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize
+    font-family: 'Cantora One', sans-serif;
+    font-size: 20px
+}
+.menu{
+    width: 700px;
+    display: flex;
+    justify-content:space-between
+}
+.banner{
+    background-image: url(../img/banner.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.texto-banner a{
+    color: blueviolet;
+    background-color: white;
+    text-decoration: none;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.posicao-texto{
+    height: 1100px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Cantora One', sans-serif;
+    font-size: 35px;
+}
